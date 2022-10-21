@@ -19,5 +19,5 @@ def blockdates():
         try:
             events += make_event_list(url)
         except:
-            print("Damaged Calendar: " + url)
+            print("Faulty URL: " + url)
     return events
